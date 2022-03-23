@@ -1,2 +1,5 @@
 # pegon-maker
-Simple WebApp to convert Indonesian Text to Arabic Pegon
+Aplikasi web sederhana yang mengubah teks Bahasa menjadi Arab Pegon.
+#### Cara Pakai
+1. Install PHP
+2. Jalankan kode melalui
