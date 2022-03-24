@@ -4,7 +4,14 @@
 <?php
 $pre = explode(" ", $text);
 foreach ( $pre as $post) {
-	echo " " .switch_word ( strtolower ( $post ));
+	$outp = $post;
+	foreach ($libs as $key => $value) {
+		if ( strtolower($post) == $key ) {
+			$outp = $value;
+		}
+	}
+
+	echo " " . $outp;
 }
 ?>
 <body>
